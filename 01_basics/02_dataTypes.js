@@ -7,13 +7,42 @@ Available data types in JS
 Primitive Datatypes
 number > For all numeric values (2^53)
 string -> for all strings ("")
-bigint -> Not in use but can be used for large integers
+bigint -> Not in use but can be used for large integers --- 1234567890n
 boolean -> True/False
-null -> Standalone value
+null -> Standalone value (empty)
 undefined -> Value is not defined (when we just create a variable and don't assign any values to it)
-symbol -> To identify uniqueness
+symbol -> To identify uniqueness. to make any value unique (making the button unique)
 
-OBJECT
+----------------------------------
+
+Non-Primitive Datatypes
+Arrays
+Objects
+Functions
+
+=> Their data type is referred to as function object.
+=> when you do typeof(function-name) you get result as function which is actually a function object.
+----------------------------------
+
+const heros = ["shaktiman", "naagtaj", "hatim"]
+let myObj = {
+    name: "Ashutosh",
+    age: 22,
+}
+
+function(){}
+const myFunction = function(){
+console.log("Hello World")
+}
+
+=> Type = NULL | Result = Object
+
+----------------------------------
+Js is dynamic or static?
+JS is dynamic.
+
+JS - const score = 100 -> type: number
+TS - const score:number = 100 -> type: number
 
 */
 
